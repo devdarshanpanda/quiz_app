@@ -1,0 +1,39 @@
+
+.row{
+    
+    background-color: teal;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul{
+    list-style: none;
+    margin-top: 1em;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#btns{
+    width: 50%;
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    text-align: center;
+    display: none;
+}
+
+.result p{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#restart{
+    width: 30%;
+}
